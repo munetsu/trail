@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HPデモ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div>
+        <!-- トップバー -->
+        <div class="topbar">
+            <div class="logoarea">
+                <a href="#topmoviearea"><img src="img/logo.png" alt="ロゴ" class="logo"></a>
+            </div>
+            <div class="menuarea">
+                <ul class="menu">
+                    <li class="menulist"><a href="#featurearea">特徴</a></li>
+                    <li class="menulist"><a href="#productarea">授業内容</a></li>
+                    <li class="menulist"><a href="#personTitle">対象</a></li>
+                    <li class="menulist"><a href="">講師紹介</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- トップ動画 -->
+        <div class="topmoviearea" id="topmoviearea">
+            <video muted src="img/topvideo.mp4" autoplay loop class="topmovie"></video>
+            <p class="topmessage">「想像」を「創造」する</p>
+        </div>
+
+        <!-- 写真とコメント -->
+        <div class="featurearea" id="featurearea">
+            <h3 class="title" id="featuretitle">特徴</h3>
+            <div class="imgarea">
+                <div class="block">
+                    <img src="img/img1.jpg" alt="feature1" class="img">
+                    <p class="headline">作り上げる</p>
+                    <span class="description">書籍や動画教材のように決められたものを作るのではなく、自分自身が作りたいと思っているものを作る実践型なので地力がつきます</span>
+                </div>
+                <div class="block">
+                    <img src="img/img2.jpg" alt="feature2" class="img">
+                    <p class="headline">助け合う</p>
+                    <span class="description">全員がお互いに知識を共有し合いながら進めていく講座です。自分の知識を隣の人に伝えることで数倍の速さで技術が身につきます</span>
+                </div>
+                <div class="block">
+                    <img src="img/img3.jpg" alt="feature3" class="img">
+                    <p class="headline">想像×創造</p>
+                    <span class="description">頭の中に想い描いたアプリを自らの手で創り出す、「０からアイデアを生み出す力」と「実現させる具現力」の両方が身につきます</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- プロダクト例 -->
+        <div class="productarea" id="productarea">
+            <h3 class="title" id="productTitle">授業内容</h3>
+            <div class="moviearea">
+                <div class="flexblock">
+                    <div class="movie">
+                        <iframe src="https://www.youtube.com/embed/DNnnEKvfJiU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="righttextarea">
+                        <p class="headline">じゃんけんアプリ</p>
+                        <span class="description">プログラミングの基礎となる「条件分岐」というロジックを学びます。</span>
+                    </div>
+                </div>
+                <div class="flexblock">
+                    <div class="lefttextarea">
+                        <p class="headline">宝くじ予想アプリ</p>
+                        <span class="description">プログラミングの基礎となる「配列」という考え方や関数などを学びます。</span>
+                    </div>
+                    <div class="movie">
+                        <iframe src="https://www.youtube.com/embed/Kv9g8MtnNP4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="flexblock">
+                    <div class="movie">
+                        <iframe src="https://www.youtube.com/embed/c76MuuiRWSA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="righttextarea">
+                        <p class="headline">チャットアプリ</p>
+                        <span class="description">アプリ作成において欠かせないデータベースを学びます。</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 対象 -->
+        <div class="personarea">
+            <h3 class="title" id="personTitle">講座対象</h3>
+            <div class="sideflex">
+                <div class="focus">
+                    <p class="headline">対象となる方</p>
+                    <ul class="personlist">
+                        <li>プログラミングの勉強や経験が全くない方</li>
+                        <li>自分で考えたアイデアを自分で作ってみたい方</li>
+                        <li>自分に向いているか分からないけど挑戦してみたい方</li>
+                    </ul>
+                </div>
+                <div class="nofocus">
+                    <p class="headline">対象とならない方</p>
+                    <ul class="personlist">
+                        <li>既にプログミングについて勉強したことがある方<span class="alert">*</span></span></li>
+                        <li>飽きっぽい方</li>
+                        <li>試行錯誤することが好きではない方</li>
+                        <li class="alerttext"><span class="alert">*</span>完全初学者向けのカリキュラムのため。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 講師紹介 -->
+        <div class="teacherarea">
+            <h3 class="title" id="teacherTitle">講師紹介</h3>
+            <div class="introduceflex">
+                <div class="faceImg">
+                    <img src="img/face.jpg" alt="顔写真" class="face">
+                </div>
+                <div class="personaltable">
+                    <table class="table">
+                        <tr>
+                            <td class="tabletitle">名前</td>
+                            <td class="tabledetail">山下　宗律(やました　ひろのり)</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletitle">生年月日</td>
+                            <td class="tabledetail">1986年6月生まれ</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletitle">趣味</td>
+                            <td class="tabledetail">映画鑑賞・マンガ</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletitle">保有資格</td>
+                            <td class="tabledetail">キャリアコンサルタント</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="teacherhistory">
+                <p class="headline">経歴</p>
+                <table class="table">
+                    <tr>
+                        <th class="tabletitle">年代</th>
+                        <th class="tabledetail">内容</th>
+                    </tr>
+                    <tr>
+                        <td class="tabletitle">2009年3月</td>
+                        <td class="tabledetail">明治大学　政治経済学部　経済学科卒業</td>
+                    </tr>
+                    <tr>
+                        <td class="tabletitle">2009年4月~</td>
+                        <td class="tabledetail"><a href="https://www.sii.co.jp/jp/" class="companylink">セイコーインスツル株式会社</a>にて経理財務業務</td>
+                    </tr>
+                    <tr>
+                        <td class="tabletitle">2013年9月~</td>
+                        <td class="tabledetail"><a href="https://www.simpline.co.jp/" class="companylink">シンプライン株式会社</a>にて人事・教育業務</td>
+                    </tr>
+                    <tr>
+                        <td class="tabletitle">2017年1月~</td>
+                        <td class="tabledetail"><a href="https://www.bizreach.co.jp/">株式会社ビズリーチ</a>にて営業・営業企画業務</td>
+                    </tr>
+                    <tr>
+                        <td class="tabletitle">2018年10月~</td>
+                        <td class="tabledetail"><a href="https://gsacademy.tokyo/">ジーズアカデミー</a>にてプログミング習得</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
