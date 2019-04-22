@@ -21,7 +21,8 @@ a {
     justify-content: space-between;
     width: 100vw;
     z-index: 100;
-    background-color: #f5a8a3;
+    background-color: #fff6e5;
+    border-bottom: 3px solid #fdfdfd;
 }
 
 .logoarea {
@@ -235,7 +236,7 @@ a {
 }
 
 .personaltable {
-    width: 50vw;
+    width: 60vw;
     margin-left: 5vw;
 }
 
@@ -255,7 +256,7 @@ a {
 }
 
 .tabledetail {
-    width: 35vw;
+    width: 45vw;
     border: solid 0.1px gray;
     padding-top: 2vh;
     padding-left: 2vw;
