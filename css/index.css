@@ -269,3 +269,16 @@ a {
 .companylink {
     text-decoration: #0000ff;
 }
+
+/********************************************************* 
+* フッターエリア
+**********************************************************/
+.footerarea {
+    background-color: #606060;
+    color: 	#e0e0e0;
+    font-size: 0.8rem;
+    height: 10vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
